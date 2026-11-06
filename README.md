@@ -1,4 +1,4 @@
-# dregs-com
+# Dregs
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,147 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-dregs-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://dregs.com/
+Dregs provides fraud detection and abuse prevention services for SaaS applications. It scores user identities on humanity, authenticity, uniqueness, and behavior to identify bots, duplicate accounts, and malicious activity. The platform offers SDKs, a REST API, notifications, escalations, and autonomous remediation to protect free trials, payment sign‑ups, and overall platform integrity.
+
+**Areas:** Fraud Detection · Abuse Prevention · Identity Scoring · Bot Detection · Account Verification
+
+## Dregs on APIs.io
+
+Everything profiled for Dregs is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/dregs-com/](https://apis.io/providers/dregs-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (11)
+
+- [Dregs Badge Rules API](https://apis.io/apis/dregs-com/dregs-com-badge-rules-api/) — Badge rule management
+- [Dregs Channels API](https://apis.io/apis/dregs-com/dregs-com-channels-api/) — Notification channel management
+- [Dregs Dashboard API](https://apis.io/apis/dregs-com/dregs-com-dashboard-api/) — Dashboard summary data
+- [Dregs Datasets API](https://apis.io/apis/dregs-com/dregs-com-datasets-api/) — Dataset management for analyzers
+- [Dregs Devices API](https://apis.io/apis/dregs-com/dregs-com-devices-api/) — Devices tracked by Dregs
+- [Dregs Escalation Rules API](https://apis.io/apis/dregs-com/dregs-com-escalation-rules-api/) — Escalation rule management
+- [Dregs Escalations API](https://apis.io/apis/dregs-com/dregs-com-escalations-api/) — Escalation management
+- [Dregs Events API](https://apis.io/apis/dregs-com/dregs-com-events-api/) — Event tracking and management endpoints
+- [Dregs Groups API](https://apis.io/apis/dregs-com/dregs-com-groups-api/) — Groups (organizations, teams, workspaces, or whatever your app calls them) that identities belong to
+- [Dregs Identities API](https://apis.io/apis/dregs-com/dregs-com-identities-api/) — Identities known to Dregs
+- [Dregs Mappings API](https://apis.io/apis/dregs-com/dregs-com-mappings-api/) — Manage mappings from customer-supplied names to canonical fields and event types
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Dregs Com Webhooks](https://apis.io/asyncapis/dregs-com/dregs-com-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Dregs Com Agentic Access](https://apis.io/agentic-access/dregs-com/dregs-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [V1Escalation](https://apis.io/schemas/dregs-com/dregs-com-v1-escalation/)
+- [V1PageV1DatasetEntry](https://apis.io/schemas/dregs-com/dregs-com-v1-page-v1-dataset-entry/)
+- [V1PageV1Escalation](https://apis.io/schemas/dregs-com/dregs-com-v1-page-v1-escalation/)
+- [V1PageV1TrackedEvent](https://apis.io/schemas/dregs-com/dregs-com-v1-page-v1-tracked-event/)
+- [V1TrackRequest](https://apis.io/schemas/dregs-com/dregs-com-v1-track-request/)
+- [V1TrackedEvent](https://apis.io/schemas/dregs-com/dregs-com-v1-tracked-event/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Dregs Com Context](https://apis.io/jsonld/dregs-com/dregs-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Dregs API Rules](https://apis.io/rules/dregs-com/dregs-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Dregs Com Authentication](https://apis.io/security/dregs-com/dregs-com-authentication/)
+- [Dregs Com Domain Security](https://apis.io/security/dregs-com/dregs-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Dregs Com Plans Pricing](https://apis.io/plans/dregs-com/dregs-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://dregs.com/)
+- [Documentation](https://dregs.com/guides/)
+- [Getting started](https://dregs.com/manual/getting-started/)
+- [API reference](https://dregs.com/changelog/)
+- [Pricing](https://dregs.com/pricing/)
+- [Sign up](https://dregs.com/dashboard/register)
+- [Security](https://dregs.com/legal/security/)
+- [Terms of service](https://dregs.com/legal/terms/)
+- [Privacy policy](https://dregs.com/legal/privacy/)
+- [GitHub](https://github.com/dregs-sdk/)
+
+## API Evangelist rating
+
+**Kin Score 63.8** — strong · rubric 0.27.0 · scored 2026-11-06
+
+| Facet | Score |
+|---|---|
+| Discoverability | 67.9 |
+| Contract quality | 67.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 39.5 |
+| Developer ergonomics | 46.9 |
+| Access clarity | 73.2 |
+
+**Agent readiness 49.8** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/dregs-com/](https://apis.io/providers/dregs-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Dregs: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/dregs-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
